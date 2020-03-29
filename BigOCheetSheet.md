@@ -15,7 +15,7 @@
 -O(n!) Factorial
 >you are adding a loop for every element <br>
 
-**Iterating through half a collection is still O(n)
+**Iterating through half a collection is still O(n)<br>
 Two separate collections: O(a * b)** <br>
 
 ## What can cause time in a function?
@@ -29,7 +29,7 @@ Outside Function call (function()) <br>
 **Rule 2** Remove Constants <br>
 **Rule 3** Different inputs should have different variables. O(a+b). A and B arrays nested would be
 O(a*b)
-```
+``` javascript
 + for steps in order
 * for nested steps 
 ```
@@ -40,3 +40,4 @@ O(a*b)
 - Data Structures
 - Function Call
 - Allocations*
+
