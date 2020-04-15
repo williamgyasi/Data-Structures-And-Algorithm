@@ -1,0 +1,6 @@
+Given n sorted arrays merge all Arrays into one array
+array1=[30,24,24,21]
+array2=[2,213,431,123]
+mergedArray=[30,24,24,21,2,213,431,123]
+
+write a function
