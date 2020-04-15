@@ -1,0 +1,5 @@
+Create a function that reverses an input string 
+example 
+"Welcome to Ghana "
+will be 
+"Ghana to Welcome"
