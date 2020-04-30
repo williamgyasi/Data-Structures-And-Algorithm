@@ -19,6 +19,27 @@ class HashTable {
     this.data[address].push([key,value])
     console.log(this.data)
   } // O(1)
+
+  //GET ALL TGE 
+  keys(){
+    const keysArray= []
+    this.data.forEach((current,index,arr)=>{
+     if(current){
+      keysArray.push(current[index][0][0])
+     }
+    })
+    return keysArray;
+  }
+
+  values (){
+    const valuesArray=[]
+    this.data.forEach((current,index,arr)=>{
+      valuesArray.push(current[index][0][0])
+    })
+
+    return valuesArray
+  }
+  
   
   
   get(key){
@@ -36,12 +57,14 @@ class HashTable {
   
   } // O(1) When No Collosions are Found .... O(n) When Collision Exist
   }
-  
+
+
   const myHashTable = new HashTable(2);
   myHashTable.set('grapes',304)
   myHashTable.set('apples',504)
   myHashTable.set('banana',13)
   
-  console.log('----------------------------')
+
+  console.log('-------------------------------')
   const getItem= myHashTable.get('banana')
   console.log(getItem)
