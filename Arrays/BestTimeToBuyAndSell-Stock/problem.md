@@ -9,7 +9,7 @@ If you were only permitted to complete at most one transaction (i.e., buy one an
 Note that you cannot sell a stock before you buy one.
 
 ```(text)
-Example 1:
+Example 1::
 
 Input: [7,1,5,3,6,4]
 Output: 5
